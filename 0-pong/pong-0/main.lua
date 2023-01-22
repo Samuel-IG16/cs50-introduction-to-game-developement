@@ -12,7 +12,7 @@ function love.load()
   })
 end
 --[[
-    Called after update by love2D. Use to draw anything unto the screen
+    Called after update by love2D. Use to draw anything unto the screen once they have changed
 ]]
 function love.draw()
   love.graphics.printf(
